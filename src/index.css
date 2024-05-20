@@ -1,0 +1,65 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #303030;
+  color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.content {
+  background-color: #202020;
+  padding: 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: 3rem;
+  margin-bottom: 32px;
+  color: #8f6fff;
+}
+.quote {
+  font-size: 1.4rem;
+}
+.separator {
+  width: 100%;
+  margin: 26px 0;
+  opacity: 20%;
+}
+.author {
+  margin-bottom: 20px;
+}
+button {
+  padding: 16px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  transition: all;
+  transition-duration: 200ms;
+  cursor: pointer;
+  background-color: #353535;
+  color: #fff;
+  &:hover {
+    background-color: #292929;
+  }
+}
